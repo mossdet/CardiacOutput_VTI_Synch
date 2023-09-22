@@ -1,14 +1,14 @@
 # CardiacOutput_VTI_Synch
 Scripts synchronizing hemodynamic metrics from a monitor and a wearable device and calculating the relationship between both metrics
 
-These scripts analyze and compare data collected using two different biomedical devices: a Monitor and a Wearable device
+###These scripts analyze and compare data collected using two different biomedical devices: a Monitor and a Wearable device
 
-The data was acquired duirng a Lower Body Negative Pressure Chamber (LBNP) Paradigm:
+###The data was acquired duirng a Lower Body Negative Pressure Chamber (LBNP) Paradigm:
 - Subjects lie down on bed, where subject’s lower body is place in the LBNP tank.
 - Tank is air-tight sealed and provides sub-atmospheric pressure by a vacuum pump.
 - After 5min of resting (baseline), continuous stepwise decrease in atmospheric pressure every 5min until - 50 mmHg or pre-syncope.
 
-Data acquisition properties:
+###Data acquisition properties:
 -Monitor data is recorded continuously from start of session to the end with a sampling rate of 1000
 -Wearable data recorded in a discontinuous manner with nonlinear sampling rate: time stamps correspond to detected start time of a beat.
 - Wearable data recording start time is not necessarily at the same time Monitor data collection is started.
@@ -16,7 +16,8 @@ Data acquisition properties:
 - Common metric between 2 datasets: Heart rate (HR)
 - Metrics to compare: Cardiac output (CO) and Velocity time integral (VTI)
 
-These scripts perform deliver the following results:
+
+###These scripts deliver the following results:
 - Automatically establish synchronicity between the two datasets
 - Updated and continuous time stamps for Wearable data (or required time shifts for data from each stage)
 - Plots showing time-aligned Monitor and Wearable data
