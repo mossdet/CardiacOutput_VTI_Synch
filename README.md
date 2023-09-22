@@ -9,8 +9,8 @@ Scripts synchronizing hemodynamic metrics from a monitor and a wearable device a
 - After 5min of resting (baseline), continuous stepwise decrease in atmospheric pressure every 5min until - 50 mmHg or pre-syncope.
 
 ### Data acquisition properties:
--Monitor data is recorded continuously from start of session to the end with a sampling rate of 1000
--Wearable data recorded in a discontinuous manner with nonlinear sampling rate: time stamps correspond to detected start time of a beat.
+- Monitor data is recorded continuously from start of session to the end with a sampling rate of 1000
+- Wearable data recorded in a discontinuous manner with nonlinear sampling rate: time stamps correspond to detected start time of a beat.
 - Wearable data recording start time is not necessarily at the same time Monitor data collection is started.
 - Wearable data is labeled based on the pressure stage during which the recording was made (Baseline, Stage1, Stage 2). It is not confirmed when the start and end of the Wearable recording was made relative to pressure chamber stage changes.
 - Common metric between 2 datasets: Heart rate (HR)
