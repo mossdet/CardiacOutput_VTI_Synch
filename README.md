@@ -3,10 +3,12 @@ Scripts synchronizing hemodynamic metrics from a monitor and a wearable device a
 
 ### These scripts analyze and compare data collected using two different biomedical devices: a Monitor and a Wearable device
 
+
 ### The data was acquired duirng a Lower Body Negative Pressure Chamber (LBNP) Paradigm:
 - Subjects lie down on bed, where subject’s lower body is place in the LBNP tank.
 - Tank is air-tight sealed and provides sub-atmospheric pressure by a vacuum pump.
 - After 5min of resting (baseline), continuous stepwise decrease in atmospheric pressure every 5min until - 50 mmHg or pre-syncope.
+
 
 ### Data acquisition properties:
 - Monitor data is recorded continuously from start of session to the end with a sampling rate of 1000
